@@ -1,0 +1,14 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.different
+{
+	color: #6F16E1;
+	font-size: 22px;
+	font-weight: 700;
+	font-style: italic;
+	display: inline-block;
+}
