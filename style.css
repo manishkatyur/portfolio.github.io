@@ -3,17 +3,79 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
+body
+{
+	background-image: url(input/web-design-development-seo-001.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1, h2, h3, h4, h5
+{
+	line-height: 1.5em;
+	margin: 8px 0px;
+	padding: 2px 0px;
+}
+p{
+	line-height: 2.6em;
+	margin: 8px 0px;
+	padding: 2px 0px;
+}
+.btn{
+	padding: 10px 50px;
+	margin: 20px 0px;
+}
+.container-fluid
+{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
 .different
 {
-	color: #6F16E1;
-	font-size: 22px;
+	color: #fff;
+	font-size: 30px;
 	font-weight: 700;
-	font-style: italic;
+	font-style: normal;
 	display: inline-block;
 }
 .nav
 {
-	background-color: #393939;
 	color: #fff !important;
+}
+.navbar-brand
+{
+	color: #fff;
+}
+.navbar-brand:hover
+{
+	color: #fff !important;
+}
+.hero-content
+{
+	padding: 100px 40px;
+	width: 100% !important;
+	line-height: 1.5em;
+}
+.hero-content > h1.display1
+{
+	color: #fff;
+	font-weight: 700;
+}
+.hero-content > p
+{
+	color: #fff;
+	font-weight: normal;
+}
+.banner
+{
+	height: calc(100vh - 55px) !important;
+	width: 100% !important;
+	background-color: none;
+}
+.banner > img
+{
+	max-width: calc(100% - 40px);
+	max-height: calc(100% - 40px);
+	background-color: none;
 }
